@@ -1,0 +1,45 @@
+
+     
+    
+      
+         
+
+
+ 
+   
+  
+    
+
+ALGORITHM number of characters
+VAR
+
+  characters:INTEGER
+    space INTEGER
+    vowels INTEGER
+    c:CHAR
+    
+BEGIN
+
+  space:=0
+characters:=0
+vowels:=0
+ WHILE (c!==".")DO
+     read (c)
+ IF (c==" ") THEN
+     space=space+1 
+ 
+ 
+ 
+ 
+ 
+ END_IF
+ characters:= characters+1
+    space:=characters+1
+ 
+ 
+ IF (c== e u i o a e) THEN
+     e u i o a e:= e u i o a e+1
+ END_IF
+ 
+ END_WHILE
+ END
